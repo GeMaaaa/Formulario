@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+fieldset {
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+legend {
+    font-size: 33px;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 4px;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 10px;
+}
+
+.box {
+    border-radius: 3px;
+    background-color: rgb(148, 148, 148);
+}
+
+fieldset {
+    background-color: rgb(255, 255, 255);
+}
+
+.inputBox {
+    padding-bottom: 2%;
+    position:relative;
+    left: 7%;
+}
+
+.inputUser, .labelInput{
+    width: 24%;
+}
+
+.inputUser {
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 2px;
+}
+
+#spaceBox {
+    margin-top: 20px;
+}
+
+#submit {
+    position: relative;
+    margin-left: 80%;
+    margin-top: 10px;
+    width: 20%;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#submit {
+    border: black 2px solid;
+    border-radius: 4px;
+    background-color: rgb(213, 213, 213);
+}
+
+
+    @media only screen and (max-width: 480px) { 
+
+        legend {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        .labelInput {
+            font-size: 20px;
+            width: 150%;
+        }
+
+        .inputUser {
+            width: 150%;
+        }
+
+        .box {
+           width: 99%;
+           height: 99%;
+        }
+
+        .inputBox {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }        
+
+        .inputBox {
+            width: 50%;
+        }
+    }
